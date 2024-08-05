@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w65TwSsm5d4=",
+  "dgSpecHash": "xEjl+/w6VYo=",
   "success": true,
-  "projectFilePath": "/Users/jurgenstevens/Projects/MvcMovie/MvcMovie.csproj",
+  "projectFilePath": "/Users/jurgenstevens/Projects/dotnet-mvc-movies/MvcMovie.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

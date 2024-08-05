@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jurgenstevens/Projects/MvcMovie/MvcMovie.csproj": {}
+    "/Users/jurgenstevens/Projects/dotnet-mvc-movies/MvcMovie.csproj": {}
   },
   "projects": {
-    "/Users/jurgenstevens/Projects/MvcMovie/MvcMovie.csproj": {
+    "/Users/jurgenstevens/Projects/dotnet-mvc-movies/MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jurgenstevens/Projects/MvcMovie/MvcMovie.csproj",
+        "projectUniqueName": "/Users/jurgenstevens/Projects/dotnet-mvc-movies/MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "/Users/jurgenstevens/Projects/MvcMovie/MvcMovie.csproj",
+        "projectPath": "/Users/jurgenstevens/Projects/dotnet-mvc-movies/MvcMovie.csproj",
         "packagesPath": "/Users/jurgenstevens/.nuget/packages/",
-        "outputPath": "/Users/jurgenstevens/Projects/MvcMovie/obj/",
+        "outputPath": "/Users/jurgenstevens/Projects/dotnet-mvc-movies/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jurgenstevens/.nuget/NuGet/NuGet.Config"
