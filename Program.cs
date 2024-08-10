@@ -9,6 +9,7 @@ builder.Services.AddDbContext<MvcMovieContext>(options =>
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+var builder = WebApplication.CreateBuilder(args);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -16,6 +17,18 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
+}
+
+// The following highlighted code in Program.cs shows how to use SQLite in development and SQL Server in production.
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddDbContext<MvcMovieContext>(options =>
+        options.UseSqlite(builder.Configuration.GetConnectionString("MvcMovieContext")));
+}
+else
+{
+    builder.Services.AddDbContext<MvcMovieContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionMvcMovieContext")));
 }
 
 app.UseHttpsRedirection();
