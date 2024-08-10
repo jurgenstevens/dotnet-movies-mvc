@@ -5,11 +5,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MvcMovieContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("MvcMovieContext") ?? throw new InvalidOperationException("Connection string 'MvcMovieContext' not found.")));
 
-// Add services to the container.
+// Add services to the container.databa
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-var builder = WebApplication.CreateBuilder(args);
+// var builder = WebApplication.CreateBuilder(args);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -20,16 +20,16 @@ if (!app.Environment.IsDevelopment())
 }
 
 // The following highlighted code in Program.cs shows how to use SQLite in development and SQL Server in production.
-if (builder.Environment.IsDevelopment())
-{
-    builder.Services.AddDbContext<MvcMovieContext>(options =>
-        options.UseSqlite(builder.Configuration.GetConnectionString("MvcMovieContext")));
-}
-else
-{
-    builder.Services.AddDbContext<MvcMovieContext>(options =>
-        options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionMvcMovieContext")));
-}
+// if (builder.Environment.IsDevelopment())
+// {
+//     builder.Services.AddDbContext<MvcMovieContext>(options =>
+//         options.UseSqlite(builder.Configuration.GetConnectionString("MvcMovieContext")));
+// }
+// else
+// {
+//     builder.Services.AddDbContext<MvcMovieContext>(options =>
+//         options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionMvcMovieContext")));
+// }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
