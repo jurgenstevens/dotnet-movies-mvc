@@ -62,6 +62,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jurgenstevens/Projects/dotnet-mvc-movies/Views/Review/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jurgenstevens/Projects/dotnet-mvc-movies/Views/Review/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jurgenstevens/Projects/dotnet-mvc-movies/Views/Review/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jurgenstevens/Projects/dotnet-mvc-movies/Views/Review/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jurgenstevens/Projects/dotnet-mvc-movies/Views/Review/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmV2aWV3L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jurgenstevens/Projects/dotnet-mvc-movies/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
