@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MvcMovieContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("MvcMovieContext") ?? throw new InvalidOperationException("Connection string 'MvcMovieContext' not found.")));
 
-// Add services to the container.databa
+// Add services to the container.database
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
